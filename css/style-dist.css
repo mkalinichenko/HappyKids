@@ -334,15 +334,40 @@ main {
 .slider {
     position: relative;
     z-index: 1;
+    height: 90rem;
+}
+@media screen and (max-width: 1400px) {
+    .slider {
+        height: 80rem;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .slider {
+        height: 75rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .slider {
+        height: 70rem;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .slider {
+        height: 65rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .slider {
+        height: 60rem;
+    }
 }
 
 .slider__item {
-    height: 100rem;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    height: 90rem;
 }
 @media screen and (max-width: 1400px) {
     .slider__item {
